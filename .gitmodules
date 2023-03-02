@@ -1,3 +1,7 @@
 [submodule "themes/charlolamode"]
 	path = themes/charlolamode
 	url = https://github.com/charlola/hugo-theme-charlolamode.git
+[submodule "public"]
+	path = public
+	url = https://github.com/LoonanChauvette/LoonanChauvette.github.io.git
+	branch = main
