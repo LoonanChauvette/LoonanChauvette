@@ -1,1 +1,96 @@
+baseURL: https://loonanchauvette.github.io/ 
+title: Loonan Chauvette
+paginate: 5
 theme: charlolamode
+
+
+
+menu:
+    main:
+        - name: Contact
+          url: /contact/
+          weight: 30
+        - name: Blog
+          url: /blog/
+          weight: 20
+        - name: Projects
+          url: /projects/
+          weight: 15
+
+     # - name: Categories
+        #   url: /categories/
+        #   weight: 10
+        # - name: new Tab
+        #   url: /newtab/
+        #   weight: defines order of tabs
+   
+
+
+params:
+    author: Loonan Chauvette
+
+
+    defaultTheme: light
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    displayFullLangName: true
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowToc: true
+
+    profileMode:
+        # Disable to populate home page with 'mainSections' content
+        enabled: true
+        title: Hello, I am Loonan !
+        description: |
+          I am an audiologist and a PhD student.
+          
+          I work in auditory and multisensory perception.
+        imageUrl: "/images/Round.png"
+        imageTitle: profile image
+        imageWidth: 180
+        imageHeight: 180
+        buttons:
+            - name: My lab
+              url: https://www.facebook.com/MAPLabCERVO
+    mainSections:
+      - articles
+
+    socialIcons:
+        - name: googlescholar
+          url: "https://scholar.google.com/citations?user=XvN-yIIAAAAJ&hl=en"
+        - name: facebook
+          url: "https://www.facebook.com/MAPLabCERVO"
+        - name: github
+          url: "https://github.com/LoonanChauvette"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/loonan-chauvette-50844a14b"
+
+      # add more social icons. find more in svg.html file
+      # - name: youtube
+      #   url: yoururl
+      # - name: twitter
+      #   url: yoururl
+      # - name: facebook
+      #   url: yoururl
+
+
+    # change favicon in images folder (icon for web tab)
+    assets:
+          favicon: "/images/favicon.ico"
+          favicon16x16: "/images/favicon-16x16.png"
+          favicon32x32: "/images/favicon-32x32.png"
+          apple_touch_icon: "/images/apple-touch-icon.png"
+          safari_pinned_tab: "/images/apple-touch-icon.png"
+
+
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+    disableXML: true
+
