@@ -6,16 +6,16 @@ language: fr
 
 
 #### LinkedIn
-Contactez-moi [LinkedIn](https://www.linkedin.com/in/loonan-chauvette-50844a14b).
+N'hésitez pas à m'ajouter sur [LinkedIn](https://www.linkedin.com/in/loonan-chauvette-50844a14b) !
 
 
-#### Academic Email
-For enquiries or longer messages, please email me:  
+#### Courriel universitaire
+Si vous avez des commentaires ou des questions sur ma recherche, voici mon adresse universitaire :  
 loonan.chauvette@cervo.ulaval.ca
 
 
 #### Clinical Email
-For my clinical services as an audiologist, please email me: 
+Pour mes services clinique en tant qu'audiologiste, voici mon adresse professionnelle : 
 lchauvette@cliniquemultisens.com
 
 

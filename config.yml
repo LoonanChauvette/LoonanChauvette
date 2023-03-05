@@ -4,9 +4,6 @@ paginate: 5
 theme: charlolamode
 # To build -> hugo -t charlolamode
 
-
-defaultContentLanguage: en
-
 languages:
   en:
     weight: 1
@@ -14,14 +11,14 @@ languages:
     menu:
       main:
           - name: Contact
-            url: /en/contact/
+            url: /contact/
             weight: 30
-          - name: Blog
-            url: /blog/
-            weight: 20
-          - name: Projects
-            url: /projects/
-            weight: 15
+          #- name: Blog
+          #  url: /blog/
+          #  weight: 20
+          #- name: Projects
+          #  url: /projects/
+          #  weight: 15
 
     params:
       profileMode:  
@@ -46,14 +43,14 @@ languages:
     menu:
       main:
           - name: Contactez-moi
-            url: /fr/contact/
+            url: /contact/
             weight: 30
-          - name: Blog
-            url: /blog/
-            weight: 20
-          - name: Projets
-            url: /projects/
-            weight: 15
+          #- name: Blog
+          #  url: /blog/
+          #  weight: 20
+          #- name: Projets
+          #  url: /projects/
+          #  weight: 15
 
     params:
 

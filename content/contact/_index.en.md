@@ -2,6 +2,7 @@
 Title: Contact
 type: list
 language: en
+link: https://loonanchauvette.github.io/fr/contact/
 ---
 
 
