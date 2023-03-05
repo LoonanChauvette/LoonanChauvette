@@ -3,59 +3,84 @@ title: Loonan Chauvette
 paginate: 5
 theme: charlolamode
 
+defaultContentLanguage: en
+
+languages:
+  en:
+    weight: 1
+    languageName: English
+    menu:
+      main:
+          - name: Contact
+            url: /en/contact/
+            weight: 30
+          - name: Blog
+            url: /blog/
+            weight: 20
+          - name: Projects
+            url: /projects/
+            weight: 15
+
+    params:
+      profileMode:  
+          enabled: true 
+          title: Hello, I am Loonan !
+          description: |
+            I am an audiologist and a PhD student.
+
+            I work in auditory and multisensory perception.
+          imageUrl: "/images/Round.png"
+          imageTitle: profile image
+          imageWidth: 180
+          imageHeight: 180
+          buttons:
+              - name: My Lab
+                url: https://www.facebook.com/MAPLabCERVO
 
 
-menu:
-    main:
-        - name: Contact
-          url: /contact/
-          weight: 30
-        - name: Blog
-          url: /blog/
-          weight: 20
-        - name: Projects
-          url: /projects/
-          weight: 15
+  fr:
+    weight: 2
+    languageName: Français
+    menu:
+      main:
+          - name: Contactez-moi
+            url: /fr/contact/
+            weight: 30
+          - name: Blog
+            url: /blog/
+            weight: 20
+          - name: Projets
+            url: /projects/
+            weight: 15
 
-     # - name: Categories
-        #   url: /categories/
-        #   weight: 10
-        # - name: new Tab
-        #   url: /newtab/
-        #   weight: defines order of tabs
-   
+    params:
+
+      profileMode:  
+          enabled: true 
+          title: Bonjour, moi c'est Loonan !
+          description: |
+            Je suis audiologiste et étudiant au doctorat.
+
+            Ma recherche porte sur la perception auditive et multisensorielle.
+          imageUrl: "/images/Round.png"
+          imageTitle: profile image
+          imageWidth: 180
+          imageHeight: 180
+          buttons:
+              - name: Mon Labo
+                url: https://www.facebook.com/MAPLabCERVO
 
 
 params:
     author: Loonan Chauvette
-
-
     defaultTheme: light
-    # disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: true
     ShowReadingTime: true
-    displayFullLangName: true
+    displayFullLangName: false
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowToc: true
-
-    profileMode:
-        # Disable to populate home page with 'mainSections' content
-        enabled: true
-        title: Hello, I am Loonan !
-        description: |
-          I am an audiologist and a PhD student.
-
-          I work in auditory and multisensory perception.
-        imageUrl: "/images/Round.png"
-        imageTitle: profile image
-        imageWidth: 180
-        imageHeight: 180
-        buttons:
-            - name: My lab
-              url: https://www.facebook.com/MAPLabCERVO
-    mainSections:
-      - articles
 
     socialIcons:
         - name: googlescholar
@@ -65,17 +90,7 @@ params:
         - name: linkedin
           url: "https://www.linkedin.com/in/loonan-chauvette-50844a14b"
 
-      # add more social icons. find more in svg.html file
-      # - name: youtube
-      #   url: yoururl
-      # - name: twitter
-      #   url: yoururl
-      # - name: facebook
-      #   url: yoururl
-
-
-    # change favicon in images folder (icon for web tab)
-    assets:
+    assets:     # change favicon in images folder (icon for web tab)
           favicon: "/images/favicon.ico"
           favicon16x16: "/images/favicon-16x16.png"
           favicon32x32: "/images/favicon-32x32.png"

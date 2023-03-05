@@ -1,11 +1,12 @@
 ---
 Title: Contact
 type: list
+language: en
 ---
 
 
 #### LinkedIn
-If you have a short message or question, drop a message via [LinkedIn](https://www.linkedin.com/in/loonan-chauvette-50844a14b).
+If you have a test message or question, drop a message via [LinkedIn](https://www.linkedin.com/in/loonan-chauvette-50844a14b).
 
 
 #### Academic Email
