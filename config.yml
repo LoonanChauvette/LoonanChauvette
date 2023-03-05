@@ -45,7 +45,7 @@ params:
         title: Hello, I am Loonan !
         description: |
           I am an audiologist and a PhD student.
-          
+
           I work in auditory and multisensory perception.
         imageUrl: "/images/Round.png"
         imageTitle: profile image
@@ -60,8 +60,6 @@ params:
     socialIcons:
         - name: googlescholar
           url: "https://scholar.google.com/citations?user=XvN-yIIAAAAJ&hl=en"
-        - name: facebook
-          url: "https://www.facebook.com/MAPLabCERVO"
         - name: github
           url: "https://github.com/LoonanChauvette"
         - name: linkedin
