@@ -2,6 +2,8 @@ baseURL: https://loonanchauvette.github.io/
 title: Loonan Chauvette
 paginate: 5
 theme: charlolamode
+# To build -> hugo -t charlolamode
+
 
 defaultContentLanguage: en
 
