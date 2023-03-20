@@ -10,15 +10,29 @@ languages:
     languageName: English
     menu:
       main:
+          - name: Home
+            pageRef: home
+            url: /
+            weight: 10
+          - name: Publications
+            pageRef: publications
+            url: /publications
+            weight: 20
+          - name: Articles
+            pageRef: articles
+            url: /articles
+            weight: 25
+            parent: Publications
+          - name: Other
+            pageRef: other
+            url: /other
+            weight: 27
+            parent: Publications
           - name: Contact
-            url: /contact/
+            pageRef: contact
+            url: /contact
             weight: 30
-          #- name: Blog
-          #  url: /blog/
-          #  weight: 20
-          #- name: Projects
-          #  url: /projects/
-          #  weight: 15
+
 
     params:
       profileMode:  
@@ -42,15 +56,26 @@ languages:
     languageName: Français
     menu:
       main:
+          - name: Accueil
+            pageRef: home
+            url: /
+            weight: 10
+          - name: Publications
+            url: /publications
+            weight: 20
+          - name: Articles
+            pageRef: articles
+            url: /articles
+            weight: 25
+            parent: Publications
+          - name: Other
+            pageRef: other
+            url: /other
+            weight: 27
+            parent: Publications
           - name: Contactez-moi
-            url: /contact/
+            url: /contact
             weight: 30
-          #- name: Blog
-          #  url: /blog/
-          #  weight: 20
-          #- name: Projets
-          #  url: /projects/
-          #  weight: 15
 
     params:
 

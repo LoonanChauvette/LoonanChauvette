@@ -57,21 +57,45 @@ body:not(.dark) #sun {
 #menu {
     list-style: none;
     word-break: keep-all;
-    overflow-x: auto;
     white-space: nowrap;
 }
 
-#menu li + li {
-    margin-inline-start: var(--gap);
+#menu > li {
+    display: inline-block;
+    position: relative;
+    line-height: 2rem;
 }
 
-#menu a {
-    font-size: 16px;
+#menu > li > a {
+    padding: 0 1rem;
 }
 
-#menu .active {
-    font-weight: 500;
-    border-bottom: 2px solid currentColor;
+#menu > li:hover > a {
+    text-decoration: underline;
+    -webkit-text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+#submenu {
+    display: none;
+    position: absolute;
+    top:100%;
+    z-index: 1;
+}
+
+#submenu > li {
+    display: block;
+    position: relative;
+    padding: 0 var(--gap);
+    line-height: 2rem;
+}
+
+#menu > li:hover > #submenu {
+    display: block;
+}
+
+#submenu > li:hover > a {
+    padding-left: 1rem; /* Add 1rem of padding to the left of the text */
 }
 
 .lang-switch li,
