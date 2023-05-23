@@ -20,12 +20,12 @@ languages:
             weight: 20
           - name: Articles
             pageRef: articles
-            url: /articles
+            url: publications/articles
             weight: 25
             parent: Publications
           - name: Other
             pageRef: other
-            url: /other
+            url: publications/other
             weight: 27
             parent: Publications
           - name: Contact
