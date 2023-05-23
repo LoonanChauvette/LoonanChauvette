@@ -1,6 +1,7 @@
 ---
 title: Articles
 type: page
+description: A list of all my publications
 lang: en
 ---
 

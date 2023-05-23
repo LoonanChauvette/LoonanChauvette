@@ -23,9 +23,9 @@ languages:
             url: publications/articles
             weight: 25
             parent: Publications
-          - name: Other
-            pageRef: other
-            url: publications/other
+          - name: Posters
+            pageRef: posters
+            url: publications/posters
             weight: 27
             parent: Publications
           - name: Contact
@@ -65,12 +65,12 @@ languages:
             weight: 20
           - name: Articles
             pageRef: articles
-            url: /articles
+            url: publications/articles
             weight: 25
             parent: Publications
-          - name: Other
-            pageRef: other
-            url: /other
+          - name: Affiches
+            pageRef: affiches
+            url: publications/posters
             weight: 27
             parent: Publications
           - name: Contactez-moi
@@ -104,7 +104,8 @@ params:
     displayFullLangName: false
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
-    ShowToc: true
+    ShowToc: false
+    dateFormat: "2006-01-02"
 
     socialIcons:
         - name: googlescholar
