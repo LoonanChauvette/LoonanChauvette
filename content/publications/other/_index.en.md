@@ -4,4 +4,4 @@ type: list
 lang: en
 ---
 
-![targets](/static/images/thankyou.png)
+![targets](images/thankyou.png)
